@@ -1,0 +1,33 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 300px;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <label>
+        Chance to be changed (%)
+        <input type="number" id="chance" min="0" max="100">
+    </label>
+    <label>
+        Highlight changed words
+        <input type="checkbox" id="highlight">
+    </label>
+    <button id="save">Save</button>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
